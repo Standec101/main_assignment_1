@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+   
+</head>
+
+<body>
+    
+<header>
+     <img src="/altschoollogo.jpg" alt="tap to reload">
+    
+</header>
+<main>
+    <h1>WELCOME</h1>
+    <h4>Please Enter Your Details</h4>
+
+   <section>
+
+    <form id="userForm">
+        <label for="firstName">First Name:</label><br>
+        <input type="text" id="firstName" name="firstName"><br>
+        <label for="lastName">Last Name:</label><br>
+        <input type="text" id="lastName" name="lastName"><br>
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br>
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required>
+        <button type="button" onclick="submitForm()">Submit</button><br>
+        <label for="Email">Email:</label><br>
+        <input type="text" id="Email" name="Email"><br>
+        <label for="Educational level">Educational Level:</label><br>
+        <select id="Educational level" name="Educational level"><br>
+            <option value="high school">High school</option>
+            <option value="Bcs">Bachelor's Degree</option>
+            <option value="masters">Master's Degree:</option>
+        </select><br>
+
+        <label for="Country">Country:</label><br>
+        <input type="text" id="Country" name="Country"><br>
+        <label for="State City of residence">State City of residence:</label><br>
+        <input type="text" id="State City of residence" name="State City of residence"><br>
+        <label for="Employment Status">Employment Status:</label><br>
+        <select id="Employment Status" name="Employment Status"><br>
+            <option value="Student">Student</option>
+            <option value="Self Employed">Self Employed</option>
+            <option value="Employed">Employed:</option>
+        </select><br>
+        <label for="Phone Number">Phone Number:</label><br>
+        <input type="text" id="Phone Number" name="Phone Number"><br>
+        <label for="Choose School">Choose School:</label><br>
+        <select id="Choose School" name="Choose School">
+            <option value="School of Engineering">School of Engineering</option>
+            <option value="School of Product">School of Product</option>
+        </select><br>
+        <label for="Choose Course">Choose Course:</label><br>
+        <select id="Choose Course" name="Choose Course">
+            <option value="Fontend Engineering">Fontend Engineering</option>
+            <option value="Backend Engineering">Backend Engineering</option>
+            <option value="Cloud Engineering">Cloud Engineering:</option>
+        </select><br>
+        <label for="How did you hear about us?">How did you hear about us?</label><br>
+        <select id="How did you hear about us?" name="How did you hear about us?">
+            <option value="twitter">Twitter</option>
+            <option value="referral">Referal</option>
+            <option value="other">other</option>
+        </select><br>
+        <label for="scholarship">Scholarship/Discount code:</label><br>
+        <input type="text" id="scholarship" name="scholarship">
+
+
+    </form>
+   </section>
+</main>
+
+   <a href="about-me.html">Back page</a>
+   
+</body>
+</html>
